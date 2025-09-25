@@ -296,6 +296,79 @@ footer {
 
 
 
+/* Donation Page */
+.donation-section {
+  text-align: center;
+  padding: 50px 20px;
+  background: #f9f9f9;
+}
+
+.donation-section h2 {
+  font-size: 1.8rem;
+  color: #00897B;
+  margin-bottom: 15px;
+}
+
+.donation-section p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.qr-code {
+  width: 200px;
+  margin: 20px 0;
+  border: 3px solid #00897B;
+  border-radius: 10px;
+}
+
+.upi-id {
+  font-size: 1.1rem;
+  margin: 10px 0 30px;
+}
+
+.thank-you {
+  background: #00897B;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.thank-you h3 {
+  margin-bottom: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive QR tweak */
+.qr-code {
+  width: 200px;
+  max-width: 80%;
+  height: auto;
+  margin: 20px 0;
+  border: 3px solid #00897B;
+  border-radius: 10px;
+}
+
+
+
+
+
 
 
 
