@@ -450,6 +450,65 @@ footer {
 
 
 
+/* Page title */
+.page-title {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 26px;
+  color: #333;
+}
+
+/* Project block */
+.project {
+  margin: 40px auto;
+  padding: 20px;
+  max-width: 800px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.project h3 {
+  margin-bottom: 15px;
+  font-size: 22px;
+  text-align: center;
+  color: #444;
+}
+
+/* Slider */
+.slider {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.slides {
+  display: flex;
+  width: 300%;
+  animation: slide 12s infinite;
+}
+
+.slides img {
+  width: 100%;
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+
+@keyframes slide {
+  0% { transform: translateX(0%); }
+  33% { transform: translateX(-100%); }
+  66% { transform: translateX(-200%); }
+  100% { transform: translateX(0%); }
+}
+
+/* Video */
+.video {
+  margin-top: 15px;
+  border-radius: 10px;
+  overflow: hidden;
+}
 
 
 
